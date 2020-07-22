@@ -1,0 +1,26 @@
+{
+  "name": "react-project",
+  "version": "1.0.0",
+  "description": "\"# react-project\"",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n01302646/react-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/n01302646/react-project/issues"
+  },
+  "homepage": "https://github.com/n01302646/react-project#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0"
+  }
+}
