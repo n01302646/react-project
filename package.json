@@ -1,29 +1,22 @@
 {
-  "name": "react-project",
+  "name": "add-the-name-here",
   "version": "1.0.0",
-  "description": "\"# react-project\"",
+  "description": "",
   "main": "webpack.config.js",
   "scripts": {
     "start": "webpack-dev-server --open --mode development",
     "build": "webpack --mode production"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/n01302646/react-project.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/n01302646/react-project/issues"
-  },
-  "homepage": "https://github.com/n01302646/react-project#readme",
   "devDependencies": {
     "@babel/core": "^7.10.5",
     "@babel/preset-env": "^7.10.4",
     "@babel/preset-react": "^7.10.4",
     "babel-loader": "^8.1.0",
     "css-loader": "^3.6.0",
+    "file-loader": "^6.0.0",
     "html-loader": "^1.1.0",
     "html-webpack-plugin": "^4.3.0",
     "style-loader": "^1.2.1",
