@@ -1,6 +1,7 @@
 import React from 'react';
-import logo from 'img/common/amazon_logo.png';
-
+import facebook from "img/twitter.svg";
+import twitter from "img/facebook.svg";
+import youtube from "img/youtube.svg";
 const Footer = () => {
 	return (
 	<>
@@ -8,9 +9,9 @@ const Footer = () => {
         <section class="first-footer footer-box row">
             <ul class="social-list">
                 <li class='social-list-h'>Please follow our Social Media Handles:</li>
-                <li><a href=""><img src="./img/twitter.svg" alt="facebook icon" /></a> Twitter</li>
-                <li><a href=""><img src="./img/facebook.svg" alt="facebook icon" /></a> Facebook</li>
-                <li><a href=""><img src="./img/youtube.svg" alt="facebook icon" /></a> Youtube</li>
+                <li><a href=""><img src={facebook} alt="facebook icon" /></a> Twitter</li>
+                <li><a href=""><img src={twitter} alt="facebook icon" /></a> Facebook</li>
+                <li><a href=""><img src={youtube} alt="facebook icon" /></a> Youtube</li>
             </ul>
             <ul class='site-map-footer'>
                 <li>

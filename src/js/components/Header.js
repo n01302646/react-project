@@ -1,13 +1,12 @@
 import React from "react";
-import test from "img/test.png";
-
+import logo from "img/logo-amazon.png";
 const Header = () => {
 	return  (
 			<>
 			 <header>
         <div class="header-wrapper">
             <div class="logo-wrapper">
-                <a href="/"><img src="./img/logo-amazon.png" alt="amazon-logo" class="img-logo"></a>
+                <a href="/"><img src={logo} alt="amazon-logo" class="img-logo" /></a>
                 <div class="deals-box">
                     <a href="#">Today's Deals: Electronic & Home Appliances</a>
                 </div>
