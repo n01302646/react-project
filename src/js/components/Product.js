@@ -1,7 +1,6 @@
   
 import React from 'react';
-import test from 'img/a-logo.png';
-
+import test from 'img/minni.jpg';
 
 const Product = ({name,price, imgpath}) => {
 	
@@ -15,13 +14,17 @@ const Product = ({name,price, imgpath}) => {
 	
 	return (
 		<>
-				<article class="cat cat-index">
-					<a href="#" class="product-box-anchor">
-						<h3 class="center">{name}</h3>
-						<img src={test} alt="Category image" />
-						<button onClick={sayHello}>Add to cart</button>
-					</a>
-				</article>
+
+  <div>
+    <div>
+        <ul >
+            <li><a href="">{name}</a></li>
+            <li><a href="/productPage"><img src={test} alt={name} id='product-imagep' /></a></li>
+            <li><a href="/productPage">See More</a></li>
+        </ul>
+        <button  id='add-button' onClick={sayHello}>Add to cart</button>
+    </div>
+        </div>
 		</>
 	)
 }

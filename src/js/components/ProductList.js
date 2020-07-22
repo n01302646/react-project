@@ -1,6 +1,6 @@
 import React from 'react';
 import Product from "components/Product";
-import test from 'img/a-logo.png';
+
 
 
 const ProductList = ({data}) => {
@@ -11,7 +11,7 @@ const ProductList = ({data}) => {
         <main>
 			<section class="cat_section" id="category">
 				<h2 class="">Categories</h2>
-				<div class="row">
+				<div class="category-grid-box row">
 					{productsArr}
 				</div>
 			</section>

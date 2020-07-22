@@ -51,3 +51,6 @@ ul {
 a {
     text-decoration: none;
 }
+.banner img {
+    width: 100%;
+}
